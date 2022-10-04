@@ -75,7 +75,7 @@ void loop()
   // fetch the temperature.  We only have 1 sensor, so the index is 0.
   fTemp = DS18B20.getTempCByIndex(0);
 
-  if (fTemp != -127.00 /*String(DS18B20.isConnected(device)==1)*/)
+  if (fTemp != -127.00 )
   {
     processDelay = 5000;
 
